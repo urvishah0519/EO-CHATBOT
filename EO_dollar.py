@@ -8,8 +8,8 @@ def load_eo_combined():
         "DRIVER={ODBC Driver 18 for SQL Server};"
         "SERVER=vm-vik-sql-03.corp.hpicloud.net;"
         "DATABASE=PS_Viking_EO;"
-        "UID=EO_analytics_svc;"
-        "PWD=4y*yVK9Z%5Qe;"
+        "UID=user_name;"
+        "PWD=pswd;"
         "Encrypt=no;"
         "TrustServerCertificate=yes;",
         timeout=5
