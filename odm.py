@@ -7,8 +7,8 @@ def load_data():
     conn = pyodbc.connect(
         "DRIVER={ODBC Driver 18 for SQL Server};"
         "SERVER=vm-vik-sql-03.corp.hpicloud.net;"
-        "DATABASE=PS_Viking_EO;"
-        "UID=EO_analytics_svc;"
+        "DATABASE=user_name;"
+        "UID=pswd;"
         "PWD=4y*yVK9Z%5Qe;"
         "Encrypt=no;"                 # important for now
         "TrustServerCertificate=yes;",
