@@ -6,7 +6,7 @@ def load_eo_combined():
 
     conn = pyodbc.connect(
         "DRIVER={ODBC Driver 18 for SQL Server};"
-        "SERVER=vm-vik-sql-03.corp.hpicloud.net;"
+        "SERVER=vik-sql-prd-03.corp.hpicloud.net;"
         "DATABASE=PS_Viking_EO;"
         "UID=user_name;"
         "PWD=pswd;"
