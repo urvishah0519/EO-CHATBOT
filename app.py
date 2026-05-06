@@ -18,14 +18,15 @@ try:
     eo_dollar_df = load_eo_combined()
     shipment_df = load_pso_data()
     rdp_df = load_rdp_data()
-    feedback_df = load_feedback()   # 👈 NEW
+    feedback_df = load_feedback()
 
     data_loaded = True
     st.success("All data loaded successfully!")
 
 except Exception as e:
-    st.error(f"Error loading data: {e}")
     data_loaded = False
+    st.warning("Live database not accessible in cloud environment. Running demo mode.")
+    st.stop()   # 🔥 THIS IS THE KEY FIX
 
 # -------------------------------
 # USER INPUT
