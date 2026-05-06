@@ -6,7 +6,7 @@ def load_data():
 
     conn = pyodbc.connect(
         "DRIVER={ODBC Driver 18 for SQL Server};"
-        "SERVER=vm-vik-sql-03.corp.hpicloud.net;"
+        "SERVER=vik-sql-prd-03.corp.hpicloud.net;"
         "DATABASE=user_name;"
         "UID=pswd;"
         "PWD=4y*yVK9Z%5Qe;"
