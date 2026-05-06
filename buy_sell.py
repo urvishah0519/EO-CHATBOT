@@ -7,8 +7,8 @@ def load_buy_sell():
     conn = pyodbc.connect(
         "DRIVER={ODBC Driver 18 for SQL Server};"
         "SERVER=vik-sql-prd-03.corp.hpicloud.net;"
-        "DATABASE=user_name;"
-        "UID=pswd;"
+        "DATABASE=PS_Viking_EO;"
+        "UID=EO_analytics_svc;"
         "PWD=4y*yVK9Z%5Qe;"
         "Encrypt=no;"
         "TrustServerCertificate=yes;",
