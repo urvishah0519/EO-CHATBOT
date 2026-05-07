@@ -4,3 +4,4 @@ pyodbc
 sqlalchemy
 openpyxl
 openai
+python-dotenv
